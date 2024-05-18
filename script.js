@@ -1,8 +1,8 @@
-async function makeMove(index, player) {
-    const response = await fetch(`https://production.tic-tac-toe-communication.quqijiangbing.workers.dev/play?index=${index}&player=${player}`);
-    const result = await response.json();
-    return result;
-}
+//async function makeMove(index, player) {
+//    const response = await fetch(`https://production.tic-tac-toe-communication.quqijiangbing.workers.dev/play?index=${index}&player=${player}`);
+//    const result = await response.json();
+//    return result;
+//}
 
 cells.forEach(cell => {
     cell.addEventListener('click', async () => {
